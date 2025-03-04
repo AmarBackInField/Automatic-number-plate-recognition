@@ -43,6 +43,8 @@ This project implements Automatic Number Plate Recognition (ANPR) using YOLOv5 f
 
 ---
 
-## Improvements  
+## Improvements and Potentials
 - Train the model for **2000-3000 epochs** to improve real-time accuracy.  
-- Optimize processing by **running the script on a GPU** for faster inference.  
+- Optimize processing by **running the script on a GPU** for faster inference.
+- For validation of output give by ocr , we use LLM model like Gemeni to remove unwanted ocr's.
+- Instead of easy ocr we can use pysseract
